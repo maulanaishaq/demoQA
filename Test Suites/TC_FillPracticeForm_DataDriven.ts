@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC_FillPracticeForm_DataDriven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>6f75888c-bf06-4a82-9d4d-b3c706787288</testSuiteGuid>
+   <testCaseLink>
+      <guid>f5c0e7c4-1657-4887-b668-646eb1cae86f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>80ec36f1-6bb8-4bc1-a56f-eeaef6aab186</id>
+         <masked>false</masked>
+         <name>email</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Registration/SuccessfulRegistration - DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f5d2c42b-6a75-44d5-99ff-29cff588cbae</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PracticeFormData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f5d2c42b-6a75-44d5-99ff-29cff588cbae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstName</value>
+         <variableId>73b8a49b-0b1d-4bdf-a46a-33c0058ff40a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5d2c42b-6a75-44d5-99ff-29cff588cbae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastName</value>
+         <variableId>da7b5fae-b742-4f68-be57-f6799a3dcdb3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5d2c42b-6a75-44d5-99ff-29cff588cbae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>80ec36f1-6bb8-4bc1-a56f-eeaef6aab186</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5d2c42b-6a75-44d5-99ff-29cff588cbae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mobile</value>
+         <variableId>6cecb71e-a4ed-4ed1-a276-0ddf568ecf44</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f5d2c42b-6a75-44d5-99ff-29cff588cbae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currentAddress</value>
+         <variableId>963543e6-a124-4472-a6e5-9ab38a773a2f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
