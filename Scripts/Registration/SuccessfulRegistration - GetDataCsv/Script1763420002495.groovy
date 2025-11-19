@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+import com.kms.katalon.core.configuration.RunConfiguration
 WebUI.callTestCase(findTestCase('Common/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('PracticeForm/Inputs/txt_Firstname'), findTestData('PracticeFormData').getValue('firstName', 
@@ -61,7 +61,8 @@ WebUI.click(findTestObject('PracticeForm/Checkbox/chk_Reading'))
 
 WebUI.click(findTestObject('PracticeForm/Checkbox/chk_Music'))
 
-String path = 'C:\\Users\\User-Asus\\Downloads\\file_example.jpg'
+String projectDir = RunConfiguration.getProjectDir()
+String path = projectDir + "/Include/files/upload/file_example.jpg"
 
 WebUI.uploadFile(findTestObject('PracticeForm/Upload/upload_Picture'), path)
 
